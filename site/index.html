@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Windows 11&#x27;s Built-In AI: A Plain-English Walking Guide · Windows 11's Built-In AI: A Plain-English Guide</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="layout">
+<nav class="toc">
+<div class="brand">Windows 11's Built-In AI</div>
+<div class="brandline">Windows 11's built-in AI, explained like a friend would.</div>
+<ol>
+<li><a href="index.html" class="active">Home</a></li>
+<li><a href="00-start-here.html">Start Here</a></li>
+<li><a href="01-copilot-chat.html">Copilot Chat</a></li>
+<li><a href="02-copilot-settings-and-privacy.html">Copilot Settings & Privacy</a></li>
+<li><a href="03-photos-ai.html">Photos AI</a></li>
+<li><a href="04-paint-ai.html">Paint AI</a></li>
+<li><a href="05-recall-and-privacy.html">Recall & Privacy</a></li>
+<li><a href="06-cloud-backup-and-auto-send.html">Cloud & Auto-Send</a></li>
+<li><a href="07-uncheck-checklist.html">Uncheck Checklist</a></li>
+<li><a href="08-troubleshooting.html">Troubleshooting</a></li>
+</ol>
+</nav>
+<main>
+<h1 id="windows-11-s-built-in-ai-a-plain-english-walking-guide">Windows 11&#x27;s Built-In AI: A Plain-English Walking Guide</h1>
+<p><strong>By Asdale Dynamics, LLC · &quot;Explained like a friend would.&quot;</strong></p>
+<p>A substantive, step-by-step manual for regular Windows 11 users who want to actually use the AI that ships with Windows — Copilot chat, the AI features in the Photos and Paint apps, and the newer, bigger privacy decisions (Recall, and the settings that quietly send things to the cloud).</p>
+<p>Everything here is:</p>
+<ul>
+<li><strong>Plain English.</strong> No jargon left unexplained, no assumptions that you already know.</li>
+<li><strong>Step by step with words instead of screenshots.</strong> Every step includes a short &quot;What you&#x27;ll see on your screen&quot; description, so you can follow along even if your screen looks a little different than described.</li>
+<li><strong>Privacy-first.</strong> This guide tells you honestly which features phone home, and gives you a plain checklist of exactly which boxes to uncheck (or turn off) if you&#x27;d rather keep things local.</li>
+<li><strong>No registry editing. Ever.</strong> Nothing in this guide asks you to open the Registry Editor or run any command-line voodoo. Everything is buttons, toggles, and menus.</li>
+</ul>
+<h2 id="how-this-is-different-from-our-other-guides">How this is different from our other guides</h2>
+<ul>
+<li><strong>New Windows computer, day one?</strong> Use our <em>New Computer Setup Day Guide</em> first — that one walks you through unboxing and first-time setup.</li>
+<li><strong>Copilot on your <em>phone</em>?</strong> That&#x27;s our <em>AI on Your Phone Guide</em>.</li>
+<li><strong>This guide</strong> covers the AI that is <em>already inside your Windows 11 PC</em> — the one on your laptop or desktop keyboard, in your Photos app, in your Paint app, and (if your PC is newer) in Recall.</li>
+</ul>
+<p>If you&#x27;ve already set the computer up and you&#x27;re just discovering &quot;wait, there&#x27;s AI in here?&quot; — you&#x27;re in exactly the right place.</p>
+<h2 id="what-s-inside">What&#x27;s inside</h2>
+<table><thead><tr><th>Chapter</th><th>What it covers</th></tr></thead><tbody><tr><td><a href="00-start-here.html">Start Here</a></td><td>What built-in AI is, what you need, how to use this guide</td></tr><tr><td><a href="01-copilot-chat.html">Copilot Chat</a></td><td>The Copilot side panel: asking questions, drafting, everyday wins</td></tr><tr><td><a href="02-copilot-settings-and-privacy.html">Copilot Settings &amp; Privacy</a></td><td>Where Copilot sends your messages, and the settings worth changing</td></tr><tr><td><a href="03-photos-ai.html">AI in the Photos App</a></td><td>Erasing objects, Restyle Image, Copy Text, enhanced photos</td></tr><tr><td><a href="04-paint-ai.html">AI in the Paint App</a></td><td>Cocreator, generative fill, Image Creator basics</td></tr><tr><td><a href="05-recall-and-privacy.html">Recall &amp; Your Privacy Choices</a></td><td>What Recall is, how to turn it off, filter apps, delete snapshots, pause it</td></tr><tr><td><a href="06-cloud-backup-and-auto-send.html">Cloud Backup &amp; Auto-Send Settings</a></td><td>OneDrive auto-send, &quot;Backup&quot; vs. sync, what to keep local</td></tr><tr><td><a href="07-uncheck-checklist.html">The Uncheck Checklist</a></td><td>One printable list of every box this guide suggests unchecking</td></tr><tr><td><a href="08-troubleshooting.html">If Something Goes Wrong</a></td><td>Common hiccups and calm fixes</td></tr></tbody></table>
+<h2 id="how-to-run-this-guide-as-a-website">How to run this guide as a website</h2>
+<p>The manual lives as plain Markdown in <code>docs/</code>. A small, dependency-free Python script turns it into a static HTML site in <code>site/</code>.</p>
+<pre><code class="language-bash">python3 build.py        # renders docs/*.md into site/*.html
+# then open site/index.html in any browser, or:
+python3 -m http.server --directory site 8000   # preview at http://localhost:8000</code></pre>
+<p>No Node, no npm install, no internet connection needed. The generated <code>site/</code> folder is fully self-contained (one CSS file, plain URLs) and can be copied anywhere.</p>
+<h2 id="verification">Verification</h2>
+<p>Run the included check script — it rebuilds the site and verifies internal links, required pages, and footer credits:</p>
+<pre><code class="language-bash">python3 build.py --check</code></pre>
+<h2 id="credits">Credits</h2>
+<p>Written and maintained by <strong>Asdale Dynamics, LLC</strong> — the company behind <em>The Massive AI Manual</em> and Dylan Asdale&#x27;s plain-English AI guides. Educational content only; never medical, legal, or financial advice.</p>
+<p>Released under the MIT License (<code>LICENSE</code>). Copyright (c) 2026 Asdale Dynamics, LLC.</p>
+<div class="pn"><a href="00-start-here.html">Start Here &rarr;</a></div>
+<footer>
+A guide by Asdale Dynamics, LLC · Copyright (c) 2026 Asdale Dynamics, LLC · Asdale Dynamics, LLC
+<br>Educational content only — not medical, legal, or financial advice.
+</footer>
+</main>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chapter 5 · Recall &amp; Your Privacy Choices · Windows 11's Built-In AI: A Plain-English Guide</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="layout">
+<nav class="toc">
+<div class="brand">Windows 11's Built-In AI</div>
+<div class="brandline">Windows 11's built-in AI, explained like a friend would.</div>
+<ol>
+<li><a href="index.html">Home</a></li>
+<li><a href="00-start-here.html">Start Here</a></li>
+<li><a href="01-copilot-chat.html">Copilot Chat</a></li>
+<li><a href="02-copilot-settings-and-privacy.html">Copilot Settings & Privacy</a></li>
+<li><a href="03-photos-ai.html">Photos AI</a></li>
+<li><a href="04-paint-ai.html">Paint AI</a></li>
+<li><a href="05-recall-and-privacy.html" class="active">Recall & Privacy</a></li>
+<li><a href="06-cloud-backup-and-auto-send.html">Cloud & Auto-Send</a></li>
+<li><a href="07-uncheck-checklist.html">Uncheck Checklist</a></li>
+<li><a href="08-troubleshooting.html">Troubleshooting</a></li>
+</ol>
+</nav>
+<main>
+<h1 id="chapter-5-recall-your-privacy-choices">Chapter 5 · Recall &amp; Your Privacy Choices</h1>
+<p><em>Time: 15 minutes to read, 5 minutes to configure · Difficulty: medium, high stakes, no registry</em></p>
+<p>This is the chapter to read slowly. <strong>Recall</strong> is the most privacy-meaningful AI feature Windows has ever shipped: a background timeline of your screen activity that AI-search indexes, so you can look back through &quot;everything I saw on my computer recently&quot; like a DVR. For some people it&#x27;s a life-changing tool. For others it sounds scary-sounding. Both reactions come from the same place, and the good news is that <strong>you</strong> get to decide — clearly, with toggles, no sysadmin degree required.</p>
+<p>Here&#x27;s how it fits together:</p>
+<p><strong>What it actually is.</strong> On specific new Windows 11 machines (the &quot;Copilot+ PC&quot; class — newer laptops with a special Neural Processing Unit chip) your computer can take a screenshot-like record of your screen every few seconds. Those records are called <em>snapshots</em>. They are stored <strong>on your PC</strong>, encrypted with the kind of device encryption that is already protecting your files, and opened only after proving you&#x27;re-you with Windows Hello (face, fingerprint, or PIN). You don&#x27;t see this timeline anywhere in normal use. To browse or search it, you open its dedicated app timeline.</p>
+<p><strong>What is <em>not</em> true</strong>, worth saying out loud: snapshots do not float to Microsoft&#x27;s servers, do not ride along with OneDrive, and are not visible to apps. The processing is local. Content that common filters recognize as sensitive (social security numbers, financial card strings, and so on) is supposed to be filtered out of the snapshots that get stored.</p>
+<p><strong>The part that&#x27;s actual up-to-you:</strong> whether snapshots happen <em>at all</em>. This feature is <strong>opt-in</strong> — the timeline stays off until you turn it on in Settings. Microsoft ships it with the switch off; when you first use a Copilot+ machine, or after major feature updates, a prompt lets you turn it on or decline. Plenty of smart friends run with it declined; plenty of other smart friends are thrilled about it. This chapter is a careful tour both ways.</p>
+<h2 id="5-1-first-check-whether-your-pc-has-recall-at-all">5.1 · First: check whether your PC has Recall at all</h2>
+<p><strong>Step 1.</strong> Press <strong>Windows key + I</strong> to open Settings. (Or <strong>Start</strong> &gt; gear icon.)</p>
+<p><strong>Step 2.</strong> In the left rail, click <strong>Privacy &amp; security</strong>.</p>
+<p><strong>Step 3.</strong> Scroll the middle list and look for <strong>Recall &amp; snapshots</strong>. If you don&#x27;t see it anywhere in the list, your PC doesn&#x27;t have Recall, and this chapter ends for you feeling prematurely brief. Skip to Chapter 6 with peace of mind.</p>
+<blockquote><p><strong>What you&#x27;ll see</strong> (for those with it): a page whose top section is titled something like <strong>&quot;Save snapshots&quot;</strong> with a single large toggle pill, and below it rows for filtering, deleting snapshots, and some informational text about encryption and Windows Hello. We&#x27;ll walk through each row, top to bottom.</p></blockquote>
+<h2 id="5-2-decide-do-i-want-this">5.2 · Decide: &quot;Do I want this?&quot;</h2>
+<p>A friend-level decision tree, no judgment attached:</p>
+<p><strong>Turn it ON if…</strong> you often riffle through old browser tabs, PDFs, emails, chat windows saying <em>&quot;where was that thing I saw?&quot;</em> Recall&#x27;s search is genuinely uncanny for that. Nurses, students, resale inventory people, and chronic 40-tab-open folks <em>love</em> it, and for some ADHD friends it&#x27;s the accessibility win of the decade.</p>
+<p><strong>Turn it OFF if…</strong> you don&#x27;t want your screen recorded even on-device; if others share your Windows account loosely (a PIN is technically a secret anyone can watch being typed); if an employer policy, a court matter, a support group, or a household privacy arrangement makes a screen timeline a bad idea. Then leave the toggle off and move on with your life. Nothing else needed.</p>
+<p><strong>Turn it ON then carefully filter it…</strong> if you want the upside but with guardrails — this is Section 5.3.</p>
+<h2 id="5-3-configure-recall-with-guardrails">5.3 · Configure Recall with guardrails</h2>
+<p>With the <strong>Save snapshots</strong> toggle <strong>on</strong>, work down the rows on the same <strong>Recall &amp; snapshots</strong> Settings page:</p>
+<p><strong>Row: &quot;Filter apps&quot; / &quot;Exclude apps&quot;.</strong> Add apps whose windows should never be snapshotted — banking apps, password managers, medical-record software at home, VPN apps, HR portals, messages with private groups (pick your own). Click <strong>Add</strong>, and pick apps from the popup and confirm.</p>
+<blockquote><p><strong>What you&#x27;ll see:</strong> a small Windows-standard &quot;pick an app&quot; style list of your installed apps with checkbox-style rows. Select apps (for example your browser, if even web browsing is off-limits) and click <strong>Confirm</strong>/<strong>Save</strong>. Names appear in a list below the row, each with a trash icon to remove it later.</p></blockquote>
+<p><strong>Row: &quot;Filter websites&quot;.</strong> Some builds let you filter by website or domain (for example your bank&#x27;s and benefits portals) — a text-field style row where you add entries one per click. Add the ones you want permanently un-recorded in Recall. Not every build has this (earlier versions filter apps; newer ones also do website filtering). If it isn&#x27;t there, the app-level filter is your lever.</p>
+<p><strong>Row: &quot;Words I don&#x27;t want included&quot; / &quot;Sensitive information filtering&quot;.</strong> If your build shows it: a list where you add words or phrases (like a rare last name, a project codename, a lease number) to block from snapshots when recognized as sensitive — one row at a time. It is not perfect keyword filtering; treat it as an extra layer, not the whole defense.</p>
+<p><strong>Row: &quot;Save activity&quot; range / &quot; Automatically delete after …&quot;.</strong> You may see how many days of snapshots are kept (30, 60, 90). Lower is fewer files to worry about; most people are fine at the default.</p>
+<h2 id="5-4-pause-and-delete-whenever-you-feel-like-it">5.4 · Pause and delete, whenever you feel like it</h2>
+<p>Two safety valves exist, and you should know both are within two clicks:</p>
+<p><strong>Pause.</strong> In the Recall app itself (or in the same Settings rows) there&#x27;s a <strong>pause</strong> control that stops recording while you do something sensitive, then let you unpause. If you finish your overdue paperwork for ten minutes tomorrow, this is how you undo worry legally. When you finish, unpause — nothing was lost.</p>
+<p><strong>Delete.</strong> On the <strong>Recall &amp; snapshots</strong> settings page you&#x27;ll find <strong>&quot;Delete all snapshots&quot;</strong> (or <strong>Delete snapshots</strong> with a date range picker in newer versions). Clicking it wipes every stored snapshot <strong>immediately and permanently</strong>, before you can confirm in a small dialog.</p>
+<blockquote><p><strong>What you&#x27;ll see:</strong> a confirmation dialog with the word <strong>Delete</strong> — the kind of button that actually means it. Afterward the space used clears; if you had snapshots spanning months, you&#x27;ll notice timeline sizes reset.</p></blockquote>
+<p>Third valve worth knowing: <strong>turn Recall off entirely</strong> (the main <em>Save snapshots</em> toggle off gains nothing — the timeline just stops being recorded). Existing snapshots stay on disk until deleted, so when you turn off in Settings, the page will guide you through deleting afterwards. Deleting is the real ending, not just unchecking.</p>
+<h2 id="5-5-the-recall-checklist-if-you-turn-it-on">5.5 · The Recall checklist, if you turn it on</h2>
+<p>A calm pre-flight checklist from one friend to another. If any of these feel under-considered, consider whether maybe it should stay turned off for you:</p>
+<ul>
+<li>[ ] I know where the OFF switch is (Privacy &amp; security &gt; Recall &amp; snapshots &gt; Save snapshots), and so does a housemate who might need to turn it off for me.</li>
+<li>[ ] My Windows account uses a strong Windows Hello PIN, not a shared password.</li>
+<li>[ ] I have Windows Hello device encryption working (Settings &gt; Privacy &amp; security &gt; Device encryption should say it&#x27;s on — it is on most Copilot+ PCs already).</li>
+<li>[ ] I have added my sensitive apps to <strong>Filter apps</strong>: banking, health, password manager, certain message apps.</li>
+<li>[ ] I know how to hit <strong>Pause</strong> for anything sensitive I need to handle.</li>
+<li>[ ] I know <strong>Delete all snapshots</strong> exists and is one click.</li>
+<li>[ ] Deciding who will see it: if my machine is used by anyone besides me with <strong>their own</strong> secure Windows account, Recall stays per-account (other users can&#x27;t browse my snapshot timeline), but the machine itself now stores more history than it used to — worth telling them, honestly, even if they can&#x27;t open it.</li>
+</ul>
+<p>Keep Recall or skip it — either way, by the end of this chapter, you&#x27;ve <em>decided</em>, you&#x27;ve <em>seen</em> how it works, and you can find every switch without help. That&#x27;s all this chapter was ever going to ask of you.</p>
+<div class="pn"><a href="04-paint-ai.html">&larr; Paint AI</a><a href="06-cloud-backup-and-auto-send.html">Cloud & Auto-Send &rarr;</a></div>
+<footer>
+A guide by Asdale Dynamics, LLC · Copyright (c) 2026 Asdale Dynamics, LLC · Asdale Dynamics, LLC
+<br>Educational content only — not medical, legal, or financial advice.
+</footer>
+</main>
+</div>
+</body>
+</html>

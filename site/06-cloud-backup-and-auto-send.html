@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chapter 6 · Cloud Backup &amp; &quot;Auto-Send&quot; Settings · Windows 11's Built-In AI: A Plain-English Guide</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="layout">
+<nav class="toc">
+<div class="brand">Windows 11's Built-In AI</div>
+<div class="brandline">Windows 11's built-in AI, explained like a friend would.</div>
+<ol>
+<li><a href="index.html">Home</a></li>
+<li><a href="00-start-here.html">Start Here</a></li>
+<li><a href="01-copilot-chat.html">Copilot Chat</a></li>
+<li><a href="02-copilot-settings-and-privacy.html">Copilot Settings & Privacy</a></li>
+<li><a href="03-photos-ai.html">Photos AI</a></li>
+<li><a href="04-paint-ai.html">Paint AI</a></li>
+<li><a href="05-recall-and-privacy.html">Recall & Privacy</a></li>
+<li><a href="06-cloud-backup-and-auto-send.html" class="active">Cloud & Auto-Send</a></li>
+<li><a href="07-uncheck-checklist.html">Uncheck Checklist</a></li>
+<li><a href="08-troubleshooting.html">Troubleshooting</a></li>
+</ol>
+</nav>
+<main>
+<h1 id="chapter-6-cloud-backup-auto-send-settings">Chapter 6 · Cloud Backup &amp; &quot;Auto-Send&quot; Settings</h1>
+<p><em>Time: about 15 minutes · Difficulty: medium</em></p>
+<p>&quot;Auto-send to cloud&quot; means any feature that quietly moves your stuff — files, photos, passwords, bookmarks, your desktop — <strong>from your computer to Microsoft&#x27;s cloud</strong>, usually OneDrive, without asking every time. Sometimes that&#x27;s wonderful (photos survive a spilled coffee). Sometimes it&#x27;s a surprise you&#x27;d rather not have (a laptop syncing your whole Desktop to a shared work account). The settings that control this live in a couple of places, they&#x27;re friendly enough to click through, and this chapter walks you to every one of them.</p>
+<p>Same rule as always in this guide: <strong>no registry edits</strong>. Everything is clicks.</p>
+<h2 id="6-1-the-big-picture-who-syncs-what-where">6.1 · The big picture: who syncs what, where</h2>
+<p>Windows 11 can sync four families of things, each with its own switch:</p>
+<ol>
+<li><strong>Files and folders</strong> — Documents, Desktop, Pictures, via OneDrive.</li>
+<li><strong>Windows settings</strong> — wallpaper, passwords(!), dark mode, and preferences, via &quot;Windows Backup&quot;.</li>
+<li><strong>App data &amp; app lists</strong> — via &quot;Windows Backup&quot; on newer builds too.</li>
+<li><strong>Microsoft account web bits</strong> — your <em>outlook.com</em> email, <em>Office</em> documents, and browser tabs, most of which have their own sync toggles.</li>
+</ol>
+<p>None are mandatory. Turning them all off is a perfectly supported configuration (&quot;I keep my files local, like a normal person in 2005&quot;), and Chapter 7 gives you that version of the world as an at-a-glance checklist.</p>
+<h2 id="6-2-windows-backup-the-settings-sync-switchboard">6.2 · Windows Backup: the settings-sync switchboard</h2>
+<p><strong>Step 1.</strong> Press <strong>Windows key + I</strong> to open <strong>Settings</strong>.</p>
+<p><strong>Step 2.</strong> Click <strong>Accounts</strong> in the left rail (older builds: top right corner).</p>
+<p><strong>Step 3.</strong> Click <strong>Windows backup</strong> (sometimes shown as a card near the top).</p>
+<blockquote><p><strong>What you&#x27;ll see:</strong> the page shows your account at the top and a list of backup rows, each a toggle: <strong>&quot;Remember my apps&quot;</strong>, <strong>&quot;Remember my preferences&quot;</strong>, <strong>&quot;Windows Spotlight&quot;</strong>, and on some builds a <strong>&quot;Sync your settings&quot;</strong> section with sub-rows like <em>Passwords</em>, <em>Language preferences</em>, <em>Other Windows settings</em> — plus per-item toggles. Several may already be <strong>on</strong> — including, notably, <strong>Passwords</strong>.</p></blockquote>
+<p><strong>Step 4.</strong> Decide each row:</p>
+<ul>
+<li><strong>Remember my apps</strong> — restores the Microsoft Store list of apps to new machines. On = convenient if you re-setup PCs a lot; off = clutter-free.</li>
+<li><strong>Remember my preferences</strong> — this is the &quot;sync settings&quot; master. Off means changes to wallpaper, theme, and (if separately toggled on) saved passwords stop traveling between computers.</li>
+<li><strong>&quot;Remember my preferences&quot; &gt; Passwords</strong> (individual row) — this is the one most people feel <em>some</em> kind of a way about: your Wi-Fi and web passwords synced to your Microsoft account. If you want passwords to live only on your hardware, toggle <strong>off</strong>. (Browsers like Chrome/Firefox have their own, separate sync settings — those are controlled in the browser&#x27;s own menus, not here.)</li>
+</ul>
+<p><strong>Good to know:</strong> Turning these settings off does not delete cloud copies already made. Chapter 7&#x27;s checklist includes how to remove existing cloud-backed data. It&#x27;s fully reversible and doesn&#x27;t affect your installed apps whatsoever.</p>
+<h2 id="6-3-onedrive-folder-backup-auto-send-for-your-files">6.3 · OneDrive folder backup (&quot;auto-send&quot; for your files)</h2>
+<p>This is the feature most people mean when they say <em>&quot;my files keep showing up in OneDrive.&quot;</em> Specifically: OneDrive&#x27;s <strong>known folder move</strong>, which (on many new computers, sometimes even before your first coffee) redirect your Desktop, Documents, and Pictures folders into OneDrive-synced folders.</p>
+<p><strong>Step 1.</strong> Look at the taskbar right side. Find the <strong>OneDrive cloud icon</strong> (a small cloud near the clock; click the tiny chevron (<strong>^</strong>) show-hidden-icons arrow if you don&#x27;t see it directly). Click it once.</p>
+<blockquote><p><strong>What you&#x27;ll see:</strong> a small OneDrive status panel opens with rows about your sync status, a <strong>gear icon</strong> near the top right of that panel, and often a <strong>&quot;Get the OneDrive app&quot;</strong> or settings row.</p></blockquote>
+<p><strong>Step 2.</strong> Click the <strong>gear icon</strong> in that panel, then choose <strong>Settings</strong> — this opens the classic OneDrive Settings window with tabs across the top.</p>
+<p><strong>Step 3.</strong> Click the <strong>Sync and backup</strong> tab, then click <strong>Manage backup</strong>.</p>
+<blockquote><p><strong>What you&#x27;ll see:</strong> a dialog with a visual: three folder tiles — <strong>Desktop</strong>, <strong>Documents</strong>, <strong>Pictures</strong> — each with a toggle under it describing whether backup is <strong>on</strong> or <strong>off</strong> (on = files in those folders are copied to OneDrive in the cloud).</p></blockquote>
+<p><strong>Step 4.</strong> Turn off any tiles you don&#x27;t want. If asked to confirm, click <strong>&quot;Keep files on this device&quot;</strong> or <strong>&quot;Stop backup&quot;</strong> — the option you pick matters: choose the keep-on-this-device wording so files stay in your real local folders instead of staying only in cloud-only form.</p>
+<blockquote><p><strong>What you&#x27;ll see:</strong> after stopping backup, Windows may show <em>C:\Users\YourName\Documents</em> returning to a plain local folder, and OneDrive shortcut-lookalike marks disappear. Your files did not vanish; they just stopped being cloud-copied. <strong>If a file appears missing</strong>, check <code>C:\Users\YourName\OneDrive\Documents</code> — files made during the backup era live there; drag them back into the local folder and they&#x27;ll stay put.</p></blockquote>
+<p><strong>Step 5.</strong> (Optional, if you&#x27;re clearly out-of-bounds) un-tie OneDrive entirely: in that same Settings window, <strong>Account tab</strong> &gt; <strong>Unlink this PC</strong>. This stops OneDrive syncing completely (the cloud app itself remains installed and harmless; you can even uninstall it in <strong>Settings</strong> &gt; <strong>Apps</strong> &gt; <strong>Installed apps</strong> &gt; <strong>OneDrive</strong> &gt; three-dots &gt; <strong>Uninstall</strong> if you truly want no part of it).</p>
+<h2 id="6-4-the-photos-app-sending-photos-to-the-cloud">6.4 · The Photos app sending photos to the cloud</h2>
+<p>People get surprised anew by the Photos app, which in newer versions can show your OneDrive photos alongside local ones. That follows your OneDrive settings (as Section 6.3), but there is also a Photos-level row:</p>
+<p><strong>Step 1.</strong> Open <strong>Photos</strong> (Start &gt; <code>Photos</code> &gt; <strong>Enter</strong>).</p>
+<p><strong>Step 2.</strong> Click the <strong>gear icon</strong> in the top-left corner of the Photos window.</p>
+<blockquote><p><strong>What you&#x27;ll see:</strong> the settings page includes <strong>&quot;Show an account cloud gallery&quot;</strong> (or similar wording about OneDrive). Toggle it <strong>off</strong> if you don&#x27;t want Photos to display or pull from your cloud gallery. Other rows (like <em>Import</em> settings) don&#x27;t send anything anywhere.</p></blockquote>
+<h2 id="6-5-the-microsoft-365-office-auto-save">6.5 · The Microsoft 365 / Office auto-save</h2>
+<p>(This is for people who use Word, Excel, or PowerPoint.) Documents saved to OneDrive come with an <strong>AutoSave</strong> toggle turned on by default (top-left of Word&#x27;s window, labeled &quot;AutoSave&quot;). It&#x27;s per-document, but Word also <em>remembers</em> the choice for future OneDrive files. If you&#x27;d rather not have docs live in the cloud by default:</p>
+<p><strong>Step 1.</strong> Open any Office app &gt; <strong>File</strong> &gt; <strong>Options</strong>.</p>
+<p><strong>Step 2.</strong> In <strong>Options</strong>, click <strong>Save</strong> in the left list and look for a checkbox like <strong>&quot;Save to Computer by default&quot;</strong>. Check it and click <strong>OK</strong>.</p>
+<blockquote><p><strong>What you&#x27;ll see:</strong> new documents now default to a Browse (Choose a location) dialog into your computer&#x27;s folders instead of OneDrive. Existing OneDrive documents keep AutoSave unless you flip the toggle per-file in the title bar.</p></blockquote>
+<h2 id="6-6-a-gentle-word-about-which-settings-did-i-sign-up-for">6.6 · A gentle word about &quot;which settings did I sign up for?&quot;</h2>
+<p>If you set up this PC with a Microsoft account (most people did, because the setup screen <em>strongly suggests</em> it), a fair amount of this chapter&#x27;s switches were on by default at setup time. That is not a mistake you made — and Chapter 7 is the single list to run through two or three times a year: after Windows feature updates, after a new device, after &quot;a friend borrowed the laptop.&quot;</p>
+<p>Everything in this chapter can be re-checked in 5 minutes with your morning coffee. Next: Chapter 7, the checklist you came here for.</p>
+<div class="pn"><a href="05-recall-and-privacy.html">&larr; Recall & Privacy</a><a href="07-uncheck-checklist.html">Uncheck Checklist &rarr;</a></div>
+<footer>
+A guide by Asdale Dynamics, LLC · Copyright (c) 2026 Asdale Dynamics, LLC · Asdale Dynamics, LLC
+<br>Educational content only — not medical, legal, or financial advice.
+</footer>
+</main>
+</div>
+</body>
+</html>
